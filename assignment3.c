@@ -31,16 +31,43 @@ int main(){
 
     // answer no. 6
     int a,b,c;
-    printf("Enter the first no.");
+    printf("Enter the first no. a");
     scanf("%d",&a);
-    printf("Enter the second no.");
+    printf("Enter the second no. b");
     scanf("%d",&b);
-    printf("both numbers%d %d\n",a,b);
     c=a;
     a=b;
     b=c;
-    printf("After swapping both number %d %d",a,b);
+    printf("both number a and b : %d and %d",a,b);
+
+    //answer no.7
+    int a,b;
+    printf("enter first number a");
+    scanf("%d",&a);
+    printf("enter the second number b");
+    scanf("%d",&b);
+    printf("print a and b : %d and %d",a+b-a,b+a-b);
+
+    //answer no.8
+    int e,f;
+    printf("enter first number e");
+    scanf("%d",&e);
+    printf("enter the second number f");
+    scanf("%d",&f);
+    printf("print e and f : %d and %d",e/e*f,f/f*e);
+    //answer no. 9
+    int c,d;
+    printf("enter first number c");
+    scanf("%d",&c);
+    printf("enter the second number d");
+    scanf("%d",&d);
+    printf("print c and d : %d and %d",c&0|d,d&0|c);
 */
+//answer no. 10
+
+
+
+
 return 0;
 
 }
